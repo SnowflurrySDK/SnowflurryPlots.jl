@@ -21,7 +21,7 @@ julia> bloch_sphere = BlochSphere(vector_color="green");
 julia> plot = plot_bloch_sphere(ket, bloch_sphere=bloch_sphere)
 
 ```
-![Bloch sphere for ket](assets/visualize/plot_green_bloch_sphere.png)
+![Bloch sphere for ket](images/plot_green_bloch_sphere.png)
 """
 @with_kw struct BlochSphere
     num_points_per_line = 50
@@ -84,7 +84,7 @@ q[2]:───────X──
 julia> plot = plot_bloch_sphere(circuit, qubit_id=2)
 
 ```
-![Bloch sphere for circuit](assets/visualize/plot_bloch_sphere_for_circuit.png)
+![Bloch sphere for circuit](images/plot_bloch_sphere_for_circuit.png)
 
 The Bloch sphere can be saved to a file by calling:
 ```
@@ -126,7 +126,7 @@ julia> ket = Ket(1/sqrt(2)*[1, 1])
 julia> plot = plot_bloch_sphere(ket)
 
 ```
-![Bloch sphere for ket](assets/visualize/plot_bloch_sphere_for_ket.png)
+![Bloch sphere for ket](images/plot_bloch_sphere_for_ket.png)
 
 The Bloch sphere can be saved to a file by calling:
 ```
@@ -169,7 +169,7 @@ Underlying data ComplexF64:
 julia> plot = plot_bloch_sphere(ρ)
 
 ```
-![Bloch sphere for operator](assets/visualize/plot_bloch_sphere_for_operator.png)
+![Bloch sphere for operator](images/plot_bloch_sphere_for_operator.png)
 
 The Bloch sphere can be saved to a file by calling:
 ```

@@ -22,7 +22,7 @@ q[2]:───────X──
 julia> plot = plot_histogram(circuit, 100)
 
 ```
-![Measurement histogram for circuit](assets/visualize/plot_histogram.png)
+![Measurement histogram for circuit](images/plot_histogram.png)
 """
 function plot_histogram(circuit::QuantumCircuit, shots_count::Int)
     data = simulate_shots(circuit, shots_count)
@@ -61,7 +61,7 @@ julia> x = y = -3.0:0.1:3.0;
 julia> viz_wigner(ρ, x, y)
 
 ```
-![Wigner function contour plot](assets/visualize/viz_wigner.png)
+![Wigner function contour plot](images/viz_wigner.png)
 """
 function viz_wigner(ρ::AbstractOperator,
     x::Union{AbstractRange{<:Real},AbstractVector{<:Real}},

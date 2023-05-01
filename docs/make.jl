@@ -1,6 +1,7 @@
 push!(LOAD_PATH, "../src/")
 
 using Documenter
+using Snowflake
 using SnowflakePlots
 
 DocMeta.setdocmeta!(SnowflakePlots, :DocTestSetup, :(using SnowflakePlots, Snowflake),
@@ -11,13 +12,9 @@ makedocs(
     format = Documenter.HTML(prettyurls = get(ENV, "CI", nothing) == "false"),
     modules = [SnowflakePlots],
     pages = [
-        "Home" => "index.md"
-    ]
+        "Home" => "index.md",
+        "Library" => "library.md",
+    ],
+    strict = true,
+    checkdocs = :exports
 )
-
-# Documenter can also automatically deploy documentation to gh-pages.
-# See "Hosting Documentation" and deploydocs() in the Documenter manual
-# for more information.
-#=deploydocs(
-    repo = "<repository url>"
-)=#
