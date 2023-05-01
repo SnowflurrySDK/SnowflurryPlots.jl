@@ -8,8 +8,11 @@ DocMeta.setdocmeta!(SnowflakePlots, :DocTestSetup, :(using SnowflakePlots, Snowf
 
 makedocs(
     sitename = "SnowflakePlots",
-    format = Documenter.HTML(),
-    modules = [SnowflakePlots]
+    format = Documenter.HTML(prettyurls = get(ENV, "CI", nothing) == "false"),
+    modules = [SnowflakePlots],
+    pages = [
+        "Home" => "index.md"
+    ]
 )
 
 # Documenter can also automatically deploy documentation to gh-pages.
