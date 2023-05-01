@@ -69,7 +69,7 @@ q[1]:
 q[2]:
 
 
-julia> push!(circuit, [hadamard(1), sigma_x(2)])
+julia> push!(circuit, hadamard(1), sigma_x(2))
 Quantum Circuit Object:
    qubit_count: 2 
 q[1]:──H───────

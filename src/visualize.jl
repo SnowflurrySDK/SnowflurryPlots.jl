@@ -9,7 +9,7 @@ The number of shots taken is specified by `shots_count`.
 ```jldoctest
 julia> circuit = QuantumCircuit(qubit_count=2);
 
-julia> push!(circuit, [hadamard(1), sigma_x(2)])
+julia> push!(circuit, hadamard(1), sigma_x(2))
 Quantum Circuit Object:
    qubit_count: 2 
 q[1]:──H───────
