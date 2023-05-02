@@ -1,0 +1,4 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Snowflake = "7bd9edc1-4fdc-40a1-a0f6-da58fb4f45eb"
+SnowflakePlots = "fa4a7b36-de81-424e-b6b4-6a78b5e46525"
