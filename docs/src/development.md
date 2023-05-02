@@ -51,7 +51,7 @@ using Pkg
 Pkg.test()
 ```
 
-## Build the documentation
+## Building the documentation
 
 First open a Julia REPL using the docs project
 
@@ -93,7 +93,7 @@ Then you can run
 include("docs/make.jl")
 ```
 
-## Run coverage locally
+## Determining the coverage locally
 
 If you haven't already, instantiate the project with Julia's package manager.
 
