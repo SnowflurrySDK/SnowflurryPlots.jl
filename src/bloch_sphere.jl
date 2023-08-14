@@ -159,7 +159,7 @@ sphere can be modified by passing a [`BlochSphere`](@ref) struct.
 ```jldoctest
 julia> ρ = DenseOperator([1.0 0.0;
                           0.0 0.0])
-(2, 2)-element Snowflake.DenseOperator:
+(2, 2)-element Snowflurry.DenseOperator:
 Underlying data ComplexF64:
 1.0 + 0.0im    0.0 + 0.0im
 0.0 + 0.0im    0.0 + 0.0im

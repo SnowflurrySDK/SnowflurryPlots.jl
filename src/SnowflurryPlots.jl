@@ -1,6 +1,6 @@
-module SnowflakePlots
+module SnowflurryPlots
 
-using Snowflake
+using Snowflurry
 using Plots
 using Parameters
 using StatsBase
