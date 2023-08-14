@@ -1,8 +1,8 @@
-![Snowflurry](https://repository-images.githubusercontent.com/441460066/a4572ad1-6421-4679-aa31-4c2a45829dc6)
+![Snowflurry](https://repository-images.githubusercontent.com/441460066/2ba724da-60e9-46a6-aa83-9df5891ea783)
 
 # SnowflurryPlots.jl
 
-SnowflurryPlots provides plotting tools for [Snowflurry](https://github.com/anyonlabs/Snowflurry.jl).
+SnowflurryPlots provides plotting tools for [Snowflurry](https://github.com/SnowflurrySDK/Snowflurry.jl).
 
 # Snowflurry Contributors Community
 
@@ -14,4 +14,4 @@ We are dedicated to cultivating an open and inclusive community to build softwar
 
 SnowflurryPlots is currently in alpha. We may change or remove parts of SnowflurryPlots' API when making new releases.
 
-Copyright (c) 2022 by Snowflurry Developers and Anyon Systems, Inc.
+Copyright (c) 2023 by Snowflurry Developers and Anyon Systems, Inc.
